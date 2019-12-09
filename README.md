@@ -110,15 +110,30 @@ Status Code Scavenger Hunt!
 Use Postman to find each of the following HTTP codes:
 
 
-1. 200
+1. 200 
+can see 200 when you use postman for a valid link
+means nothing needs to be done and the data was retrieved successfully
 1. 301
+URL redirection (link has moved)
+Can edit the link so the original link works instead of redirecting
 1. 400
+Invalid syntax (server was unable to process request)
+To fix this, user will have to type in the correct request
 1. 401
-1. 403
+Unauthorized access
+Needs login credients/ user privledge to access the data. If this was an app, I would login to access the data I want to see
+1. 403 
+GitHub 403 (forbidden access to client from server because I typed in an incorrect password too many times)
+need to wait a bit before attempting to login again (nothing to do)
 1. 404
+Page on site could not be found on server
+This means that the page has been deleted or moved (this is a client issue and will need to update proper url to gain access)
 1. 418
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/418
+this is a reference error to a joke (I'm a teapot)?
+indicates that the server refuses to brew coffee
 1. 500
-
+internal server error (server encountered a problem but cant give you specifics on what went wrong).
 
 For each of the questions below, write:
 
